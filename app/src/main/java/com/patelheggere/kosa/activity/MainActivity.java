@@ -1,30 +1,21 @@
 package com.patelheggere.kosa.activity;
 
-import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.patelheggere.kosa.R;
 import com.patelheggere.kosa.base.BaseActivity;
-import com.patelheggere.kosa.helper.SharedPrefsHelper;
-
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import static com.patelheggere.kosa.helper.AppUtils.Constants.EMAIL;
-import static com.patelheggere.kosa.helper.AppUtils.Constants.MOBILE;
-import static com.patelheggere.kosa.helper.AppUtils.Constants.NAME;
 
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
     private TextView mTextMessage;
