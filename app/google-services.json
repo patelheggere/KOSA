@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "95302007418",
+    "firebase_url": "https://kosa-6c129.firebaseio.com",
+    "project_id": "kosa-6c129",
+    "storage_bucket": "kosa-6c129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95302007418:android:e3f739d3930dc1bd",
+        "android_client_info": {
+          "package_name": "com.patelheggere.kosa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95302007418-p8nap5huhnriv9rkdou1u4cn3bvrjpbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patelheggere.kosa",
+            "certificate_hash": "31f193b39e94e6b1d609010f4fe9be4db314c4a9"
+          }
+        },
+        {
+          "client_id": "95302007418-qcohkg2f6r3frgr7dlisk8io9tml3ot0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xhzp66eMBey4BtmAath9sOFUmnKEK30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95302007418-qcohkg2f6r3frgr7dlisk8io9tml3ot0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
